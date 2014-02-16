@@ -4,6 +4,8 @@
 --------------------------------------------------------------------------------
 
 local mod = sBot:NewModule("Resurrect", sBot.mod, "AceConsole-3.0", "AceEvent-3.0")
+mod.plugin = true
+
 local enable
 
 function mod:OnInitialize()

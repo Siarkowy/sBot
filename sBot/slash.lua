@@ -14,7 +14,7 @@ sBot.slash = {
         core = {
             header = {
                 type = "header",
-                name = "Modules",
+                name = "General actions",
                 cmdHidden = true,
                 order = 0,
             }
