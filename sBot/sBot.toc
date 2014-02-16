@@ -6,7 +6,7 @@
 ## X-License: GNU GPL v3
 ## SavedVariables: sBotDB
 ## OptionalDeps: Ace3
-## Version: 1.0
+## Version: 1.0.1
 
 core.lua
 slash.lua

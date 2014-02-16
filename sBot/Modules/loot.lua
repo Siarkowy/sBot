@@ -21,7 +21,7 @@ function mod:OnEnable()
     self:RegisterEvent("START_LOOT_ROLL")
 end
 
-function mod:START_LOOT_ROLL(id, time)
+function mod:START_LOOT_ROLL(event, id, time)
     local action = self.db.profile[tonumber(GetLootRollItemLink(id):match("item:(%d+)"))]
     if action then RollOnLoot(id, action) end
 end
