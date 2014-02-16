@@ -1,0 +1,15 @@
+## Interface: 20400
+## Title: sBot
+## Notes: Configurable automatic actions. Usage: /sbot
+## Author: Siarkowy <siarkowy@siarkowy.net>
+## X-Website: https://github.com/Siarkowy/sBot
+## X-License: GNU GPL v3
+## SavedVariables: sBotDB
+## OptionalDeps: Ace3
+## Version: 1.0
+
+core.lua
+slash.lua
+Modules\loot.lua
+Modules\resurrect.lua
+Modules\summon.lua
